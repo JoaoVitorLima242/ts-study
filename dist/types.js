@@ -23,3 +23,21 @@ var Colors;
 let coisa;
 coisa = true;
 coisa = "string";
+// void (vazio)
+function logger() {
+    console.log("fooo");
+}
+// never - func sem retorno
+function error() {
+    throw new Error('error');
+}
+// object 
+let cart;
+cart = {
+    key: "string"
+};
+// Type Interference
+let message2 = "mensage definida";
+window.addEventListener('click', (e) => {
+    console.log(e.target);
+});
