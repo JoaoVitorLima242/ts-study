@@ -1,6 +1,6 @@
 const input1 = document.getElementById('input1') as HTMLInputElement;
 const input2 = document.getElementById('input2') as HTMLInputElement;
-const btnSoma = document.getElementById('btn1') as HTMLInputElement;
+const btnSoma = document.getElementById('btn1')!;
 
 const soma = (a: number, b: number) => {
     return a + b
