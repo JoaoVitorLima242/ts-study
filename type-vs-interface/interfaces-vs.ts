@@ -16,11 +16,11 @@ interface GameCollectionI extends GameT,  DLCT {};
 
 //implements
 
-class CreateGameI implements GameCollectionI {}
+//class CreateGameI implements GameCollectionI {}
 
 //==================== diferenca ===============
  
-interface IdI extends number {};
+//interface IdI extends number {};
 
 // nao consigo definir tuplas na interface
 interface TupleI {
@@ -44,4 +44,6 @@ const obj: JqueryI = {
 
 // Vantagens ++++
 // Permite novos metodos e merge entre informacoes, assim sendo extensivas.
-// Boa para trabalhar criando libs
+// Boa para trabalhar criando libs.
+
+// Criando Objetos/Classes 

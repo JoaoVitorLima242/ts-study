@@ -2,10 +2,6 @@
 // Interfaces
 ;
 ;
-//implements
-class CreateGameI {
-}
-;
 [1, 2, 3, 4];
 const obj = {
     a: "str",
@@ -14,4 +10,5 @@ const obj = {
 };
 // Vantagens ++++
 // Permite novos metodos e merge entre informacoes, assim sendo extensivas.
-// Boa para trabalhar criando libs
+// Boa para trabalhar criando libs.
+// Criando Objetos/Classes 
