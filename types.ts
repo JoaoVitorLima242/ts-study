@@ -48,3 +48,10 @@ let cart: object;
 cart = {
     key: "string"
 }
+
+// Type Interference
+let message2 = "mensage definida"
+
+window.addEventListener('click', (e) => {
+    console.log(e.target)
+})
