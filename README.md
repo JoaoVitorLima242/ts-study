@@ -1,2 +1,2 @@
 # ts-study
-This is my TS study.
+Just a dev studying typescript.
