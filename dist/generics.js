@@ -5,7 +5,7 @@
 // V => Value
 // E => Element
 function useState() {
-    let state;
+    var state;
     function getState() {
         return state;
     }
@@ -14,10 +14,10 @@ function useState() {
         state = newState;
     }
     ;
-    return { getState, setState };
+    return { getState: getState, setState: setState };
 }
 ;
-const newState = useState();
+var newState = useState();
 newState.setState(123); //uma string
 console.log(newState.getState());
 newState.setState('foo');

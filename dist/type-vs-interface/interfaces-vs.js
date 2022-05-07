@@ -3,7 +3,7 @@
 ;
 ;
 [1, 2, 3, 4];
-const obj = {
+var obj = {
     a: "str",
     b: "str",
     // c: "str",

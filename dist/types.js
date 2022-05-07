@@ -3,16 +3,16 @@
 var isOpen;
 isOpen = true;
 // string
-let message;
-message = `foo ${isOpen}`;
+var message;
+message = "foo ".concat(isOpen);
 // number (int, float, hex, binary)
-let total;
+var total;
 total = 20.3;
 // array (type[] ) 
-let items;
-let items2;
+var items;
+var items2;
 // tuple
-let titles; // sabe quantidade e tipos
+var titles; // sabe quantidade e tipos
 // enum
 var Colors;
 (function (Colors) {
@@ -20,7 +20,7 @@ var Colors;
     Colors["black"] = "000";
 })(Colors || (Colors = {}));
 // any (qualquer coisa) NAO E LEGAL!!!
-let coisa;
+var coisa;
 coisa = true;
 coisa = "string";
 // void (vazio)
@@ -32,12 +32,12 @@ function error() {
     throw new Error('error');
 }
 // object 
-let cart;
+var cart;
 cart = {
     key: "string"
 };
 // Type Interference
-let message2 = "mensage definida";
-window.addEventListener('click', (e) => {
+var message2 = "mensage definida";
+window.addEventListener('click', function (e) {
     console.log(e.target);
 });

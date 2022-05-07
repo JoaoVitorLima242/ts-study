@@ -1,27 +1,28 @@
 "use strict";
-class CreateGame {
-    constructor(t, d, g) {
+var CreateGame = /** @class */ (function () {
+    function CreateGame(t, d, g) {
         this.title = t,
             this.description = d,
             this.genre = g;
     }
-}
-const theLastOfUs = {
+    return CreateGame;
+}());
+var theLastOfUs = {
     title: "The Last Of Us",
     description: "A good game",
     genre: "Action",
     plataform: ['PS3', 'PS4'],
     getSimilar: function () {
-        console.log(`Similar games to ${this.title}: Uncharted, A Plangue Tale and Metro`);
+        console.log("Similar games to ".concat(this.title, ": Uncharted, A Plangue Tale and Metro"));
     }
 };
-const leftBehind = {
+var leftBehind = {
     title: "The Last Of Us",
     description: "A good game",
     genre: "Action",
     plataform: ['PS3', 'PS4'],
     getSimilar: function () {
-        console.log(`Similar games to ${this.title}: Uncharted, A Plangue Tale and Metro`);
+        console.log("Similar games to ".concat(this.title, ": Uncharted, A Plangue Tale and Metro"));
     },
     originalGame: theLastOfUs,
     newContent: ["new history", 'new caracters']

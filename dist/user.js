@@ -1,19 +1,19 @@
 "use strict";
 // AccountInfo
-const account1 = {
+var account1 = {
     id: 1,
     name: "Joao",
     email: "email@gmail.com"
 };
-const account2 = {
+var account2 = {
     id: 1,
     name: "Maria",
 };
-const char = {
+var char = {
     nickname: "jozi",
     level: 2
 };
-const player = {
+var player = {
     id: 123,
     name: "Joao",
     nickname: "jzin",
